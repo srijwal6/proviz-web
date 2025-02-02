@@ -26,7 +26,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-light">
+    <section id="services" className="py-20 bg-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
           Our Services
@@ -35,7 +35,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="p-6 rounded-lg bg-light backdrop-blur-sm border border-primary/20 hover:border-primary/40 transition-colors duration-300"
+              className="p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-primary/20 hover:border-primary/40 transition-colors duration-300"
             >
               <div className="text-primary mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold text-primary mb-2">{service.title}</h3>
