@@ -25,11 +25,15 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
-          dark: "#7E69AB",
+          DEFAULT: "#810A3D",
+          dark: "#5C072B",
+        },
+        secondary: {
+          DEFAULT: "#D0A968",
+          dark: "#B89050",
         },
         dark: "#1A1F2C",
-        light: "#C8C8C9",
+        light: "#FFFFFF",
       },
       animation: {
         "fade-up": "fadeUp 0.5s ease-out forwards",
