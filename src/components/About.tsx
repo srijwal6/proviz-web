@@ -9,10 +9,10 @@ const stats = [
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-dark">
+    <section id="about" className="py-20 bg-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">About Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6">About Us</h2>
           <p className="text-light max-w-2xl mx-auto">
             We are a team of dedicated professionals committed to delivering
             exceptional results for our clients through innovative solutions

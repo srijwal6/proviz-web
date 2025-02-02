@@ -26,20 +26,20 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-dark/95">
+    <section id="services" className="py-20 bg-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
           Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
-              className="p-6 rounded-lg bg-dark border border-secondary/20 hover:border-secondary/40 transition-colors duration-300"
+              className="p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-primary/20 hover:border-primary/40 transition-colors duration-300"
             >
-              <div className="text-secondary mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
-              <p className="text-light">{service.description}</p>
+              <div className="text-primary mb-4">{service.icon}</div>
+              <h3 className="text-xl font-semibold text-primary mb-2">{service.title}</h3>
+              <p className="text-primary/90">{service.description}</p>
             </div>
           ))}
         </div>
