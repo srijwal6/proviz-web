@@ -46,13 +46,13 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-secondary">
+    <section id="services" className="py-20 bg-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Comprehensive Business Solutions
           </h2>
-          <p className="text-primary/90 max-w-3xl mx-auto text-lg">
+          <p className="text-white/90 max-w-3xl mx-auto text-lg">
             Our diverse range of services is designed to address every aspect of your business needs,
             from strategic planning to operational execution. We combine local expertise with global
             best practices to deliver exceptional results.
@@ -62,11 +62,11 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-primary/20 hover:border-primary/40 transition-colors duration-300"
+              className="p-6 rounded-lg bg-dark/95 backdrop-blur-sm border border-secondary/20 hover:border-secondary/40 transition-colors duration-300"
             >
-              <div className="text-primary mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-primary mb-3">{service.title}</h3>
-              <p className="text-primary/90">{service.description}</p>
+              <div className="text-secondary mb-4">{service.icon}</div>
+              <h3 className="text-xl font-semibold text-white mb-3">{service.title}</h3>
+              <p className="text-white/80">{service.description}</p>
             </div>
           ))}
         </div>
