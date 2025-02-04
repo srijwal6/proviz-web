@@ -1,10 +1,10 @@
 import React from 'react';
 
 const stats = [
-  { number: "10+", label: "Years Experience" },
-  { number: "200+", label: "Projects Completed" },
-  { number: "50+", label: "Team Members" },
-  { number: "95%", label: "Client Satisfaction" }
+  { number: "15+", label: "Years Experience" },
+  { number: "500+", label: "Projects Delivered" },
+  { number: "100+", label: "Expert Consultants" },
+  { number: "98%", label: "Client Satisfaction" }
 ];
 
 const About = () => {
@@ -14,9 +14,10 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6">About Us</h2>
           <p className="text-light max-w-2xl mx-auto">
-            We are a team of dedicated professionals committed to delivering
-            exceptional results for our clients through innovative solutions
-            and strategic thinking.
+            As a leading consulting firm, we bring together industry expertise, 
+            innovative solutions, and proven methodologies to help organizations 
+            achieve operational excellence and sustainable growth in an ever-evolving 
+            business landscape.
           </p>
         </div>
         

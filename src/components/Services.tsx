@@ -4,23 +4,23 @@ import { Lightbulb, TrendingUp, Users, Shield } from 'lucide-react';
 const services = [
   {
     icon: <Lightbulb size={40} />,
-    title: "Innovation",
-    description: "Cutting-edge solutions for modern business challenges"
+    title: "Strategic Consulting",
+    description: "Expert guidance in business strategy, market analysis, and organizational development for sustainable growth"
   },
   {
     icon: <TrendingUp size={40} />,
-    title: "Growth",
-    description: "Strategic planning for sustainable business expansion"
+    title: "Business Excellence",
+    description: "Implementation of quality management systems and operational excellence frameworks"
   },
   {
     icon: <Users size={40} />,
-    title: "Collaboration",
-    description: "Building strong partnerships for mutual success"
+    title: "Project Management",
+    description: "Professional project planning, execution, and monitoring services across various sectors"
   },
   {
     icon: <Shield size={40} />,
-    title: "Security",
-    description: "Protecting your business assets and data"
+    title: "Risk Management",
+    description: "Comprehensive risk assessment and mitigation strategies to protect your business interests"
   }
 ];
 
