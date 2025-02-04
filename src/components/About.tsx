@@ -1,10 +1,10 @@
 import React from 'react';
 
 const stats = [
-  { number: "15+", label: "Years Experience" },
-  { number: "500+", label: "Projects Delivered" },
-  { number: "100+", label: "Expert Consultants" },
-  { number: "98%", label: "Client Satisfaction" }
+  { number: "20+", label: "Years Experience" },
+  { number: "1000+", label: "Projects Completed" },
+  { number: "200+", label: "Expert Professionals" },
+  { number: "99%", label: "Client Satisfaction" }
 ];
 
 const About = () => {
@@ -14,10 +14,12 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6">About Us</h2>
           <p className="text-light max-w-2xl mx-auto">
-            As a leading consulting firm, we bring together industry expertise, 
-            innovative solutions, and proven methodologies to help organizations 
-            achieve operational excellence and sustainable growth in an ever-evolving 
-            business landscape.
+            With over two decades of experience, we have established ourselves as a 
+            trusted partner for businesses seeking excellence. Our team of seasoned 
+            professionals combines local market knowledge with international best practices 
+            to deliver exceptional results. We take pride in our ability to understand 
+            unique business challenges and provide tailored solutions that drive sustainable growth 
+            and innovation across the MENA region.
           </p>
         </div>
         
