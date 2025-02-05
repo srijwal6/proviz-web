@@ -4,43 +4,48 @@ import { Lightbulb, TrendingUp, Users, Shield, BarChart, Building, Globe, Briefc
 const services = [
   {
     icon: <Lightbulb size={40} />,
-    title: "Strategic Management Consulting",
-    description: "Comprehensive strategic planning and execution support, including market entry strategies, business model optimization, and organizational restructuring. We help businesses identify growth opportunities and develop actionable roadmaps for success."
+    title: "Strategic Consulting",
+    description: "Expert guidance in business strategy, market analysis, and organizational development for sustainable growth."
   },
   {
     icon: <TrendingUp size={40} />,
-    title: "Business Development & Growth",
-    description: "End-to-end business development solutions encompassing market research, partnership development, and revenue growth strategies. Our team helps identify and capitalize on new market opportunities while optimizing existing operations."
-  },
+    title: "Business Excellence",
+    description: "Implementation of quality management systems and operational excellence frameworks"
+  },//Professional project planning, execution, and monitoring services across various sectors
   {
     icon: <Users size={40} />,
-    title: "Human Capital Management",
-    description: "Strategic workforce planning, talent acquisition, and development programs designed to build high-performing teams. We help organizations attract, develop, and retain top talent while creating positive workplace cultures."
+    title: "HR Management",
+    description: "Professional project planning, execution, and monitoring services across various sectors"
   },
+  // {
+  //   icon: <Users size={40} />,
+  //   title: "Human Capital Management",
+  //   description: "Strategic workforce planning, talent acquisition, and development programs designed to build high-performing teams. We help organizations attract, develop, and retain top talent while creating positive workplace cultures."
+  // },
   {
     icon: <Shield size={40} />,
-    title: "Risk Management & Compliance",
-    description: "Comprehensive risk assessment and management services, ensuring regulatory compliance and business continuity. Our experts help identify, evaluate, and mitigate risks while maintaining operational efficiency."
+    title: "Risk Management",
+    description: "Comprehensive risk assessment and mitigation strategies to protect your business interests"
   },
   {
     icon: <BarChart size={40} />,
-    title: "Financial Advisory Services",
-    description: "Expert financial planning, analysis, and optimization services to enhance business performance. We provide detailed financial modeling, investment analysis, and strategic financial planning to support growth objectives."
+    title: "Financial Services",
+    description: "Expert financial planning, analysis, and optimization to enhance business performance and support growth."
   },
   {
     icon: <Building size={40} />,
     title: "Corporate Restructuring",
-    description: "Specialized services in organizational restructuring, merger integration, and change management. Our team guides businesses through complex transformations while maintaining operational stability."
+    description: "Specialized services in organizational restructuring, merger integration, and change management to ensure smooth business transitions."
   },
   {
     icon: <Globe size={40} />,
-    title: "International Business Solutions",
-    description: "Comprehensive support for international market entry, cross-border operations, and global expansion strategies. We help businesses navigate international markets while ensuring compliance with local regulations."
+    title: "Global Expansion",
+    description: "Expert guidance for international market entry, cross-border operations, and regulatory compliance."
   },
   {
     icon: <Briefcase size={40} />,
-    title: "Project Management Excellence",
-    description: "Professional project management services ensuring successful initiative delivery. Our experienced team manages complex projects from conception to completion, ensuring alignment with business objectives."
+    title: "Management Excellence",
+    description: "Provide expert project management from conception to completion, ensuring alignment with business goals."
   }
 ];
 

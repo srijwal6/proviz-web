@@ -18,8 +18,8 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-down">
-            Empowering Business Excellence in
-            <span className="text-secondary"> Qatar & Beyond</span>
+            Empowering Excellence Through
+            <span className="text-secondary"> Strategic Solutions</span>
           </h1>
           <p className="text-light text-lg md:text-xl max-w-3xl mx-auto mb-8 animate-fade-up">
             As a premier business consulting firm in Qatar, we specialize in delivering comprehensive solutions 
