@@ -20,7 +20,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/172d5d6e-cc06-40f6-9763-c6830d1a07c1.png" 
               alt="Provijz Logo" 
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </div>
           

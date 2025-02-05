@@ -8,7 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-secondary">Business Group Qatar</h3>
+            <img 
+              src="/lovable-uploads/172d5d6e-cc06-40f6-9763-c6830d1a07c1.png" 
+              alt="Provijz Logo" 
+              className="h-12 w-auto mb-4"
+            />
             <p className="text-sm">Your trusted partner for business excellence in Qatar and beyond.</p>
           </div>
 
