@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Lightbulb, TrendingUp, Users, Shield, BarChart, Building, Globe, Briefcase } from 'lucide-react';
 
 const services = [
@@ -50,6 +51,12 @@ const services = [
 ];
 
 const Services = () => {
+  const navigate = useNavigate();
+
+  const handleServiceClick = () => {
+    navigate('/services');
+  };
+
   return (
     <section id="services" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -67,7 +74,8 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="p-6 rounded-lg bg-black/95 backdrop-blur-sm border border-secondary/20 hover:border-secondary/40 transition-colors duration-300"
+              className="p-6 rounded-lg bg-black/95 backdrop-blur-sm border border-secondary/20 hover:border-secondary/40 transition-colors duration-300 cursor-pointer"
+              onClick={handleServiceClick}
             >
               <div className="text-secondary mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold text-white mb-3">{service.title}</h3>
