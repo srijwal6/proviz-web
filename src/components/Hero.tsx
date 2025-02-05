@@ -21,12 +21,12 @@ const Hero = () => {
             Empowering Excellence Through
             <span className="text-secondary"> Strategic Solutions</span>
           </h1>
-          <p className="text-light text-lg md:text-xl max-w-3xl mx-auto mb-8 animate-fade-up">
+          {/* <p className="text-light text-lg md:text-xl max-w-3xl mx-auto mb-8 animate-fade-up">
             As a premier business consulting firm in Qatar, we specialize in delivering comprehensive solutions 
             that drive sustainable growth and operational excellence. Our expertise spans strategic planning, 
             business development, and organizational transformation, helping businesses navigate the complex 
             landscape of the modern economy.
-          </p>
+          </p> */}
           <div className="space-y-4">
             <p className="text-light text-md md:text-lg max-w-2xl mx-auto">
               With a deep understanding of local markets and global best practices, 
